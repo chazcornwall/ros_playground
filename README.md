@@ -11,6 +11,8 @@ place for testing and playing around with ros
 1. Source ros
 2. Run `catkin_make`
 
+**NOTE** For python nodes, do not forget to make the node an executable: `chmod +x scripts/<python file>.py`
+
 # Run nodes
 
 1. Launch `roscore` in another window
