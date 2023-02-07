@@ -1,5 +1,5 @@
 #include <ros/ros.h>
-#include <beginner_tutorials/SeeStats.h>
+#include <beginner_tutorials_msgs/SeeStats.h>
 #include <map>
 
 
@@ -16,7 +16,7 @@ std::map<std::string, DbEntry> db{
     {"Jack", {"ASDF", 30, 16}}
 };
 
-bool find_stats(beginner_tutorials::SeeStats::Request & req, beginner_tutorials::SeeStats::Response & res)
+bool find_stats(beginner_tutorials_msgs::SeeStats::Request & req, beginner_tutorials_msgs::SeeStats::Response & res)
 {
     ROS_INFO("Request Received!");
     if (db.find(req.first_name) != db.end())

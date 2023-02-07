@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-from beginner_tutorials.msg import Stats
-from beginner_tutorials.srv import SeeStats, SeeStatsResponse
+from beginner_tutorials_msgs.msg import Stats
+from beginner_tutorials_msgs.srv import SeeStats, SeeStatsResponse
 import rospy
 
 
