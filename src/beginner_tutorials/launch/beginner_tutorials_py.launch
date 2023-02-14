@@ -1,0 +1,4 @@
+<launch>
+    <node name="server" pkg="beginner_tutorials" type="server.py" args="" respawn="true"/>
+    <node name="talker" pkg="beginner_tutorials" type="talker.py" args="" respawn="true"/>
+</launch>
